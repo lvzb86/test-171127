@@ -1,8 +1,9 @@
+# coding:utf-8
 import time
 
 start_time = time.time()
 
-# 注意是两重循环
+# 两重循环!!!
 for a in range(0, 1001):
     for b in range(0, 1001-a):
         c = 1000 - a - b

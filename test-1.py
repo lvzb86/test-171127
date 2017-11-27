@@ -1,8 +1,9 @@
+# coding:utf-8
 import time
 
 start_time = time.time()
 
-# 注意是三重循环
+# 三重循环!!!
 for a in range(0, 1001):
     for b in range(0, 1001):
         for c in range(0, 1001):
